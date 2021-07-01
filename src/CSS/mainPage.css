@@ -1,0 +1,12 @@
+.mainPage {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 750px) {
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+    }
+}
